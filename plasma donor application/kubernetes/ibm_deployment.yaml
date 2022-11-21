@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: plasma-donor-container
-          image: jp.icr.io/plasma-donor/plasma-donor@sha256:94797c2bd43cb5a9c8be7c7a58064fbab5b9f15edff6f9a752c2544e8f9de52f
+          image: jp.icr.io/plasma-donor/plasma-donor
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
